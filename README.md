@@ -2,13 +2,19 @@
 
 This is an Android demo application for displaying the latest box office movies using the [RottenTomatoes API](http://www.rottentomatoes.com/). See the [RottenTomatoes Networking Tutorial](http://guides.thecodepath.com/android/RottenTomatoes-Networking-Tutorial) on our cliffnotes for a step-by-step tutorial.
 
-Time spent: 2 hours so far
+Time spent: 7 hours
 
 Completed user stories:
 
  * [x] Required: User can view a list of latest box office movies including title, cast and tomatoes rating
- * [x] Required: User can click on a movie in the list to bring up a details page with additional information such as synopsis
- * [] Optional: Placeholder image is used for movie posters loaded in from the network
+ * [x] Required: User can click on a movie in the list to bring up a detailed page with additional information such as synopsis
+ * [x] Required: ErrorBar shows if the asynchronous request fails
+ * [x] Required: Pull to refresh
+ * [x] Required: Loading state
+ * [x] Optional: Customized highlighting and selection effect
+ * [x] Optional: UISearchBar implemented
+ * [x] Optional: Low Res -> High Res photo
+ * [x] Optional: YouTube trailers implemented as an extension (YouTube API)
 
 Notes:
 
