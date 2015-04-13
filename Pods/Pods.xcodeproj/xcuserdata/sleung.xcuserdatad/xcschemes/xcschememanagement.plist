@@ -9,6 +9,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-youtube-ios-player-helper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>67205E6214ACAF50EB5A6412</key>
+		<key>0369F945FF753AF2F7CDE658</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B329AC8E7A923DEEB3C1B7B</key>
+		<key>12214371250551CBFD38ADD3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>954B7DB367EE01F3DF65E029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D509F2BAFA10039764792540</key>
 		<dict>
 			<key>primary</key>
 			<true/>

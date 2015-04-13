@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B5A04C3F1AD6565000BBA45E /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A04C3E1AD6565000BBA45E /* MovieDetailViewController.swift */; };
+		B5A04C411AD70D9400BBA45E /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A04C401AD70D9400BBA45E /* TrailerViewController.swift */; };
 		B5C2B41A1AD4CFA100652E93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2B4191AD4CFA100652E93 /* AppDelegate.swift */; };
 		B5C2B41C1AD4CFA100652E93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C2B41B1AD4CFA100652E93 /* ViewController.swift */; };
 		B5C2B41F1AD4CFA100652E93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C2B41D1AD4CFA100652E93 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		5469191DE91BBA21C5B3E767 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B5A04C3B1AD652C200BBA45E /* tomatoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tomatoes-Bridging-Header.h"; sourceTree = "<group>"; };
 		B5A04C3E1AD6565000BBA45E /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		B5A04C401AD70D9400BBA45E /* TrailerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 		B5C2B4141AD4CFA100652E93 /* tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C2B4181AD4CFA100652E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C2B4191AD4CFA100652E93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				B5C2B43D1AD64D2300652E93 /* MovieCell.swift */,
 				B5A04C3B1AD652C200BBA45E /* tomatoes-Bridging-Header.h */,
 				B5A04C3E1AD6565000BBA45E /* MovieDetailViewController.swift */,
+				B5A04C401AD70D9400BBA45E /* TrailerViewController.swift */,
 			);
 			path = tomatoes;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			files = (
 				B5C2B41C1AD4CFA100652E93 /* ViewController.swift in Sources */,
 				B5A04C3F1AD6565000BBA45E /* MovieDetailViewController.swift in Sources */,
+				B5A04C411AD70D9400BBA45E /* TrailerViewController.swift in Sources */,
 				B5C2B41A1AD4CFA100652E93 /* AppDelegate.swift in Sources */,
 				B5C2B43E1AD64D2300652E93 /* MovieCell.swift in Sources */,
 				B5C2B43A1AD63D1000652E93 /* MoviesViewController.swift in Sources */,

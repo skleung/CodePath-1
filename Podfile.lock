@@ -20,11 +20,17 @@ PODS:
   - AFNetworking/UIKit (2.5.2):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - MBProgressHUD (0.9.1)
+  - youtube-ios-player-helper (0.1.1)
 
 DEPENDENCIES:
   - AFNetworking
+  - MBProgressHUD
+  - youtube-ios-player-helper (~> 0.1.1)
 
 SPEC CHECKSUMS:
   AFNetworking: fefbce9660acb17f48ae0011292d4da0f457bf36
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  youtube-ios-player-helper: d7350b9f9070edf482e5d0bd5e8948c0ba1437f3
 
 COCOAPODS: 0.36.3
