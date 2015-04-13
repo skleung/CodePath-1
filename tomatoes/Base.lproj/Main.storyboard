@@ -102,7 +102,7 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <view alpha="0.75000000000000011" contentMode="scaleToFill" id="BKL-bl-2GR">
-                                <rect key="frame" x="0.0" y="382" width="320" height="186"/>
+                                <rect key="frame" x="0.0" y="318" width="320" height="186"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="LPb-Lg-Qm7">
@@ -161,23 +161,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="Gkr-Gf-7xb" customClass="YTPlayerView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="94"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                             <view alpha="0.84999999999999987" contentMode="scaleToFill" id="dP2-Uo-zE5">
-                                <rect key="frame" x="0.0" y="193" width="320" height="375"/>
+                                <rect key="frame" x="0.0" y="148" width="320" height="396"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MYK-oP-faG">
-                                        <rect key="frame" x="8" y="68" width="304" height="299"/>
+                                        <rect key="frame" x="8" y="89" width="304" height="299"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dqW-V8-oTx">
-                                        <rect key="frame" x="8" y="26" width="239" height="34"/>
+                                        <rect key="frame" x="8" y="47" width="239" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
                                         <color key="textColor" red="1" green="0.82578638979999996" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

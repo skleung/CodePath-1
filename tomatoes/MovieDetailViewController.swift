@@ -13,17 +13,17 @@ class MovieDetailViewController: UIViewController {
   var movie: NSDictionary!
   var lowResPicture: UIImageView!
   @IBOutlet var titleLabel: UILabel!
-  @IBOutlet var synopsisLabel: UILabel!
   @IBOutlet var posterImage: UIImageView!
   @IBOutlet var ratingLabel: UILabel!
   @IBOutlet var ratingImage: UIImageView!
   var videoID: NSString!
+  var synopsisText: NSString!
   
     override func viewDidLoad() {
         super.viewDidLoad()
       println(movie)
         titleLabel.text = movie["title"] as? String
-        synopsisLabel.text = movie["synopsis"] as? String
+      synopsisText = movie["synopsis"] as? String
       var url = movie.valueForKeyPath("posters.original") as? String
       var range = url!.rangeOfString(".*cloudfront.net/", options: .RegularExpressionSearch)
       if let range = range {
@@ -69,8 +69,8 @@ class MovieDetailViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
       var trailerView = segue.destinationViewController as TrailerViewController
       trailerView.videoID = videoID
-      trailerView.synopsisText = synopsisLabel.text
       trailerView.titleText = titleLabel.text
+      trailerView.synopsisText = synopsisText
     }
 
 
