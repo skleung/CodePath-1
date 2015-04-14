@@ -12,7 +12,9 @@ Completed user stories:
  * [x] Required: Pull to refresh
  * [x] Required: Loading state
  * [x] Optional: Customized highlighting and selection effect
+ * [x] Optional: Redesigned colors and interface for UISearchBar and UINavigationBar
  * [x] Optional: UISearchBar implemented
+ * [x] Optional: Added images for rotten and fresh movies
  * [x] Optional: Low Res -> High Res photo
  * [x] Optional: YouTube trailers implemented as an extension (YouTube API)
 
@@ -21,6 +23,6 @@ Notes:
 
 Walkthrough of all user stories:
 
-![Video Walkthrough](anim_rotten_tomatoes.gif)
+![Video Walkthrough](demo.gif)
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [GifCreator](http://www.cockos.com/licecap/).
